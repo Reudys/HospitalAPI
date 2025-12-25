@@ -38,3 +38,4 @@ C:\Users\Rey\Desktop\Aplicaciones\APIREST\HospitalAPI\HospitalAPI\HospitalAPI\ob
 C:\Users\Rey\Desktop\Aplicaciones\APIREST\HospitalAPI\HospitalAPI\HospitalAPI\bin\Debug\net10.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Users\Rey\Desktop\Aplicaciones\APIREST\HospitalAPI\HospitalAPI\HospitalAPI\bin\Debug\net10.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\Rey\Desktop\Aplicaciones\APIREST\HospitalAPI\HospitalAPI\HospitalAPI\bin\Debug\net10.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Rey\Desktop\Aplicaciones\APIREST\HospitalAPI\HospitalAPI\HospitalAPI\obj\Debug\net10.0\HospitalAPI.sourcelink.json

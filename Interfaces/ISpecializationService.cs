@@ -6,5 +6,7 @@ namespace HospitalAPI.Interfaces
     {
         Task<IEnumerable<Specialization>> GetAllAsync();
         Task<Specialization> CreateAsync(Specialization specialization);
+        Task<Specialization> UpdateAsync(int id, Specialization specialization);
+        Task<bool> DeleteAsync(int id);
     }
 }

@@ -24,5 +24,42 @@
       }
     ],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HospitalAPI.Controllers.SpecializationController",
+    "Method": "Update",
+    "RelativePath": "api/Specialization/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "specialization",
+        "Type": "HospitalAPI.Models.Specialization",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HospitalAPI.Controllers.SpecializationController",
+    "Method": "Delete",
+    "RelativePath": "api/Specialization/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
   }
 ]
