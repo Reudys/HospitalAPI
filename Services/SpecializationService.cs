@@ -24,5 +24,24 @@ namespace HospitalAPI.Services
             await _context.SaveChangesAsync();
             return specialization;
         }
+
+        public async Task<Specialization> UpdateAsync(int id, Specialization specialization)
+        {
+            var special = _context.Specializations.Find(id);
+            if (special == null) return null;
+            special.Name = specialization.Name;
+            special.Description = specialization.Description;
+            await _context.SaveChangesAsync();
+            return special;
+        }
+
+        public async Task<bool> DeleteAsync(int id)
+        {
+            var special = _context.Specializations.Find(id);
+            if (special == null) return false;
+            _context.Specializations.Remove(special);
+            await _context.SaveChangesAsync();
+            return true;
+        }
     }
 }

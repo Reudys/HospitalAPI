@@ -33,5 +33,22 @@ namespace HospitalAPI.Controllers
             var createdSpecialization = await _service.CreateAsync(specialization);
             return CreatedAtAction(nameof(GetAll), new { id = createdSpecialization.Id }, createdSpecialization);
         }
+
+        [HttpPut("{id}")]
+        public async Task<IActionResult> Update(int id, Specialization specialization)
+        {
+            if (specialization == null) return BadRequest();
+            var updatedSpecialization = await _service.UpdateAsync(id, specialization);
+            if (updatedSpecialization == null) return NotFound();
+            return Ok(updatedSpecialization);
+        }
+
+        [HttpDelete("{id}")]
+        public async Task<IActionResult> Delete(int id)
+        {
+            var result = await _service.DeleteAsync(id);
+            if (!result) return NotFound();
+            return NoContent();
+        }
     }
 }
