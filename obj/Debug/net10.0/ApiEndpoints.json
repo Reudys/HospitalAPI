@@ -1,0 +1,28 @@
+[
+  {
+    "ContainingType": "HospitalAPI.Controllers.SpecializationController",
+    "Method": "GetAll",
+    "RelativePath": "api/Specialization",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HospitalAPI.Controllers.SpecializationController",
+    "Method": "Create",
+    "RelativePath": "api/Specialization",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "specialization",
+        "Type": "HospitalAPI.Models.Specialization",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
